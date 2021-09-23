@@ -1,0 +1,50 @@
+<script>
+
+var json = [{
+    "id" : "1", 
+    "msg"   : "ajith",
+    "tid" : "2021-09-23 o1:31",
+    "fromWho": "ajithrevildo1999@gmail.com"
+},
+{
+  "id" : "2", 
+    "msg"   : "Revildo",
+    "tid" : "2021-09-23 o1:31",
+    "fromWho": "gongurakothamalli0208@gmail.com"  
+}];
+
+var txt = "";
+var text = "";
+var text1 = "";
+
+//for
+
+let i;
+for (i = 0; i < 5; i++) {
+  text += "The number is " + i + "";
+}
+
+//for in
+ for (var x in json) {
+ txt += json[x] + " ";
+}
+
+//for of
+for (var x of json) {
+  text1 += x;
+}
+
+//for each
+json.forEach(item => {
+
+  console.log('ID: ' + item.id);
+  console.log('MSG: ' + item.msg);
+  console.log('TID: ' + item.tid);
+  console.log('FROMWHO: ' + item.fromWho);
+});
+
+
+console.log(txt);
+console.log(text);
+console.log(text1);
+</script>
