@@ -1,2 +1,4 @@
 # day3-js-assesment
-//for the given json iterate over all for loops(for,for in,for of,for each).
+1.for the given json iterate over all for loops(for,for in,for of,for each).
+
+#anser :can be attached below day-js.html
